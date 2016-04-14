@@ -1,0 +1,30 @@
+{
+  "name": "status-app",
+  "version": "0.1.0",
+  "description": "RESTful status page.",
+  "main": "status-app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lab11/status-page.git"
+  },
+  "keywords": [
+    "status",
+    "rest"
+  ],
+  "author": "Brad Campbell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lab11/status-page/issues"
+  },
+  "homepage": "https://github.com/lab11/status-page#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "dateformat": "^1.0.12",
+    "express": "^4.13.4",
+    "express-ws": "^2.0.0-beta",
+    "nunjucks": "^2.4.1"
+  }
+}
